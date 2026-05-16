@@ -1,5 +1,5 @@
 score = 0
-total = 20
+total = 30
 
 questions = [
     {
@@ -141,11 +141,82 @@ questions = [
         "b": "Tulsidas",
         "answer": "a",
         "correct": "Valmiki"
+    },
+    {
+        "question": "Q21. Which is the hardest natural substance?",
+        "a": "Gold",
+        "b": "Diamond",
+        "answer": "b",
+        "correct": "Diamond"
+    },
+    {
+        "question": "Q22. How many colors in a rainbow?",
+        "a": "7",
+        "b": "6",
+        "answer": "a",
+        "correct": "7"
+    },
+    {
+        "question": "Q23. Which planet is known as the Red Planet?",
+        "a": "Jupiter",
+        "b": "Mars",
+        "answer": "b",
+        "correct": "Mars"
+    },
+    {
+        "question": "Q24. Who invented the light bulb?",
+        "a": "Thomas Edison",
+        "b": "Nikola Tesla",
+        "answer": "a",
+        "correct": "Thomas Edison"
+    },
+    {
+        "question": "Q25. What is the full form of AI?",
+        "a": "Automated Intelligence",
+        "b": "Artificial Intelligence",
+        "answer": "b",
+        "correct": "Artificial Intelligence"
+    },
+    {
+        "question": "Q26. Which language is used for AI development?",
+        "a": "Python",
+        "b": "HTML",
+        "answer": "a",
+        "correct": "Python"
+    },
+    {
+        "question": "Q27. How many planets in our solar system?",
+        "a": "9",
+        "b": "8",
+        "answer": "b",
+        "correct": "8"
+    },
+    {
+        "question": "Q28. Which is the smallest bone in human body?",
+        "a": "Stapes (ear)",
+        "b": "Femur",
+        "answer": "a",
+        "correct": "Stapes (ear)"
+    },
+    {
+        "question": "Q29. Who is the founder of Microsoft?",
+        "a": "Bill Gates",
+        "b": "Steve Jobs",
+        "answer": "a",
+        "correct": "Bill Gates"
+    },
+    {
+        "question": "Q30. What does RAM stand for?",
+        "a": "Random Access Memory",
+        "b": "Read Access Memory",
+        "answer": "a",
+        "correct": "Random Access Memory"
     }
 ]
 
 print("=" * 40)
 print("       WELCOME TO QUIZ GAME!")
+print("    Total Questions: 30")
 print("=" * 40)
 
 for q in questions:
@@ -169,7 +240,7 @@ print("=" * 40)
 print("Your Score:", score, "/", total)
 
 percentage = (score / total) * 100
-print("Percentage:", percentage, "%")
+print("Percentage:", round(percentage, 1), "%")
 
 if percentage == 100:
     print("PERFECT SCORE! GENIUS! 🏆")
