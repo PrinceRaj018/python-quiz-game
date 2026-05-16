@@ -63,8 +63,41 @@ An upgraded beginner Python quiz game built using a list of dictionaries, loops,
 - Percentage Calculation
 - Program Flow
 
-## File
-- quiz_game.py
-
 ## Version
 - v2
+
+
+# Python Quiz Game v3
+
+An upgraded Python quiz game with 30 questions using lists, dictionaries, loops, conditions, and score tracking.
+
+## Features
+- 30 Quiz Questions
+- Multiple Choice Answers
+- Correct / Wrong Feedback
+- Score Tracking
+- Percentage Calculation
+- Final Result Grading
+- Structured Question System
+
+## Concepts Used
+- Variables
+- Lists
+- Dictionaries
+- Loops
+- Conditions
+- User Input
+- Traversal
+- Validation Logic
+
+## What Changed in v3
+- Added 10 more questions
+- Improved quiz structure
+- Cleaner percentage output
+- Better quiz flow
+
+## File
+- quiz_game_v3.py
+
+## Version
+- v3
