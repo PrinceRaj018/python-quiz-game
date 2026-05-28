@@ -1,5 +1,5 @@
 score = 0
-total = 30
+total = 40
 
 questions = [
     {
@@ -211,12 +211,82 @@ questions = [
         "b": "Read Access Memory",
         "answer": "a",
         "correct": "Random Access Memory"
+    },
+    {
+        "question": "Q31. Who founded Apple?",
+        "a": "Bill Gates",
+        "b": "Steve Jobs",
+        "answer": "b",
+        "correct": "Steve Jobs"
+    },
+    {
+        "question": "Q32. What is the full form of HTML?",
+        "a": "Hyper Text Markup Language",
+        "b": "High Text Machine Language",
+        "answer": "a",
+        "correct": "Hyper Text Markup Language"
+    },
+    {
+        "question": "Q33. Which country is known as the Land of Rising Sun?",
+        "a": "China",
+        "b": "Japan",
+        "answer": "b",
+        "correct": "Japan"
+    },
+    {
+        "question": "Q34. How many seconds in one hour?",
+        "a": "3600",
+        "b": "3000",
+        "answer": "a",
+        "correct": "3600"
+    },
+    {
+        "question": "Q35. What is the speed of light?",
+        "a": "3 × 10⁸ m/s",
+        "b": "3 × 10⁶ m/s",
+        "answer": "a",
+        "correct": "3 × 10⁸ m/s"
+    },
+    {
+        "question": "Q36. Which is the largest planet in solar system?",
+        "a": "Saturn",
+        "b": "Jupiter",
+        "answer": "b",
+        "correct": "Jupiter"
+    },
+    {
+        "question": "Q37. Who invented Python programming language?",
+        "a": "Guido van Rossum",
+        "b": "Dennis Ritchie",
+        "answer": "a",
+        "correct": "Guido van Rossum"
+    },
+    {
+        "question": "Q38. What is the national flower of India?",
+        "a": "Rose",
+        "b": "Lotus",
+        "answer": "b",
+        "correct": "Lotus"
+    },
+    {
+        "question": "Q39. Which company made ChatGPT?",
+        "a": "Google",
+        "b": "OpenAI",
+        "answer": "b",
+        "correct": "OpenAI"
+    },
+    {
+        "question": "Q40. Which company made Claude AI?",
+        "a": "Anthropic",
+        "b": "Meta",
+        "answer": "a",
+        "correct": "Anthropic"
     }
 ]
 
 print("=" * 40)
 print("       WELCOME TO QUIZ GAME!")
-print("    Total Questions: 30")
+print("    Total Questions: 40")
 print("=" * 40)
 
 for q in questions:
